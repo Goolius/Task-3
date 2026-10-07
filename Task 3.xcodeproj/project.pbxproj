@@ -6,8 +6,55 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B20000000000000000000001 /* RentRepairWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B20000000000000000000003 /* RentRepairWidget.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B20000000000000000000002 /* RentRepairShareExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B20000000000000000000004 /* RentRepairShareExtension.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A10000000000000000000007 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FBF2315307663EC00701AAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FBF231C307663EC00701AAB;
+			remoteInfo = "Task 3";
+		};
+		B20000000000000000000017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FBF2315307663EC00701AAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20000000000000000000013;
+			remoteInfo = RentRepairWidget;
+		};
+		B20000000000000000000019 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FBF2315307663EC00701AAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20000000000000000000014;
+			remoteInfo = RentRepairShareExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B20000000000000000000021 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B20000000000000000000001 /* RentRepairWidget.appex in Embed App Extensions */,
+				B20000000000000000000002 /* RentRepairShareExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1FBF231D307663EC00701AAB /* Task 3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task 3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10000000000000000000001 /* RentRepairLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RentRepairLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20000000000000000000003 /* RentRepairWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RentRepairWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20000000000000000000004 /* RentRepairShareExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RentRepairShareExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +63,46 @@
 			path = "Task 3";
 			sourceTree = "<group>";
 		};
+		A10000000000000000000002 /* RentRepairLogTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RentRepairLogTests;
+			sourceTree = "<group>";
+		};
+		B20000000000000000000005 /* RentRepairWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RentRepairWidget;
+			sourceTree = "<group>";
+		};
+		B20000000000000000000006 /* RentRepairShareExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RentRepairShareExtension;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1FBF231A307663EC00701AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000000004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20000000000000000000008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20000000000000000000011 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +116,9 @@
 			isa = PBXGroup;
 			children = (
 				1FBF231F307663EC00701AAB /* Task 3 */,
+				A10000000000000000000002 /* RentRepairLogTests */,
+				B20000000000000000000005 /* RentRepairWidget */,
+				B20000000000000000000006 /* RentRepairShareExtension */,
 				1FBF231E307663EC00701AAB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +127,9 @@
 			isa = PBXGroup;
 			children = (
 				1FBF231D307663EC00701AAB /* Task 3.app */,
+				A10000000000000000000001 /* RentRepairLogTests.xctest */,
+				B20000000000000000000003 /* RentRepairWidget.appex */,
+				B20000000000000000000004 /* RentRepairShareExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,10 +144,13 @@
 				1FBF2319307663EC00701AAB /* Sources */,
 				1FBF231A307663EC00701AAB /* Frameworks */,
 				1FBF231B307663EC00701AAB /* Resources */,
+				B20000000000000000000021 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B20000000000000000000018 /* PBXTargetDependency */,
+				B20000000000000000000020 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				1FBF231F307663EC00701AAB /* Task 3 */,
@@ -69,6 +161,73 @@
 			productName = "Task 3";
 			productReference = 1FBF231D307663EC00701AAB /* Task 3.app */;
 			productType = "com.apple.product-type.application";
+		};
+		A10000000000000000000006 /* RentRepairLogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A10000000000000000000011 /* Build configuration list for PBXNativeTarget "RentRepairLogTests" */;
+			buildPhases = (
+				A10000000000000000000003 /* Sources */,
+				A10000000000000000000004 /* Frameworks */,
+				A10000000000000000000005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A10000000000000000000008 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A10000000000000000000002 /* RentRepairLogTests */,
+			);
+			name = RentRepairLogTests;
+			packageProductDependencies = (
+			);
+			productName = RentRepairLogTests;
+			productReference = A10000000000000000000001 /* RentRepairLogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B20000000000000000000013 /* RentRepairWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20000000000000000000027 /* Build configuration list for PBXNativeTarget "RentRepairWidget" */;
+			buildPhases = (
+				B20000000000000000000007 /* Sources */,
+				B20000000000000000000008 /* Frameworks */,
+				B20000000000000000000009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B20000000000000000000005 /* RentRepairWidget */,
+			);
+			name = RentRepairWidget;
+			packageProductDependencies = (
+			);
+			productName = RentRepairWidget;
+			productReference = B20000000000000000000003 /* RentRepairWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B20000000000000000000014 /* RentRepairShareExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20000000000000000000028 /* Build configuration list for PBXNativeTarget "RentRepairShareExtension" */;
+			buildPhases = (
+				B20000000000000000000010 /* Sources */,
+				B20000000000000000000011 /* Frameworks */,
+				B20000000000000000000012 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B20000000000000000000006 /* RentRepairShareExtension */,
+			);
+			name = RentRepairShareExtension;
+			packageProductDependencies = (
+			);
+			productName = RentRepairShareExtension;
+			productReference = B20000000000000000000004 /* RentRepairShareExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -81,6 +240,16 @@
 				LastUpgradeCheck = 2630;
 				TargetAttributes = {
 					1FBF231C307663EC00701AAB = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					A10000000000000000000006 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 1FBF231C307663EC00701AAB;
+					};
+					B20000000000000000000013 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					B20000000000000000000014 = {
 						CreatedOnToolsVersion = 26.3;
 					};
 				};
@@ -100,12 +269,36 @@
 			projectRoot = "";
 			targets = (
 				1FBF231C307663EC00701AAB /* Task 3 */,
+				A10000000000000000000006 /* RentRepairLogTests */,
+				B20000000000000000000013 /* RentRepairWidget */,
+				B20000000000000000000014 /* RentRepairShareExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1FBF231B307663EC00701AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A10000000000000000000005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20000000000000000000009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20000000000000000000012 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +315,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A10000000000000000000003 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20000000000000000000007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20000000000000000000010 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A10000000000000000000008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FBF231C307663EC00701AAB /* Task 3 */;
+			targetProxy = A10000000000000000000007 /* PBXContainerItemProxy */;
+		};
+		B20000000000000000000018 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20000000000000000000013 /* RentRepairWidget */;
+			targetProxy = B20000000000000000000017 /* PBXContainerItemProxy */;
+		};
+		B20000000000000000000020 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20000000000000000000014 /* RentRepairShareExtension */;
+			targetProxy = B20000000000000000000019 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1FBF2326307663F000701AAB /* Debug */ = {
@@ -249,6 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Task 3/RentRepairLog.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
@@ -263,7 +496,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Task-3";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.rentrepairlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -280,6 +513,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Task 3/RentRepairLog.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
@@ -294,7 +528,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.Task-3";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.rentrepairlog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -303,6 +537,143 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A10000000000000000000009 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.rentrepairlog.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Task 3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Task 3";
+			};
+			name = Debug;
+		};
+		A10000000000000000000010 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.rentrepairlog.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Task 3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Task 3";
+			};
+			name = Release;
+		};
+		B20000000000000000000023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = RentRepairWidget/RentRepairWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Config/RentRepairWidgetInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.rentrepairlog.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B20000000000000000000024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = RentRepairWidget/RentRepairWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Config/RentRepairWidgetInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.rentrepairlog.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		B20000000000000000000025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = RentRepairShareExtension/RentRepairShareExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Config/RentRepairShareExtensionInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.rentrepairlog.share;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B20000000000000000000026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = RentRepairShareExtension/RentRepairShareExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Config/RentRepairShareExtensionInfo.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.rentrepairlog.share;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -323,6 +694,33 @@
 			buildConfigurations = (
 				1FBF2329307663F000701AAB /* Debug */,
 				1FBF232A307663F000701AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A10000000000000000000011 /* Build configuration list for PBXNativeTarget "RentRepairLogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000000000000000009 /* Debug */,
+				A10000000000000000000010 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20000000000000000000027 /* Build configuration list for PBXNativeTarget "RentRepairWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20000000000000000000023 /* Debug */,
+				B20000000000000000000024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20000000000000000000028 /* Build configuration list for PBXNativeTarget "RentRepairShareExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20000000000000000000025 /* Debug */,
+				B20000000000000000000026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
