@@ -1,6 +1,7 @@
 .DS_Store
 DerivedData/
 build/
+tmp/
 *.xcuserstate
 xcuserdata/
 *.moved-aside
@@ -12,4 +13,3 @@ xcuserdata/
 *.cer
 *.p12
 *.ipa
-
